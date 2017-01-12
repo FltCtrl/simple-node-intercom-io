@@ -29,5 +29,3 @@ tmp
 # Idea file for PHPStorm/WebStorm
 .idea
 
-# Dist folder
-dist

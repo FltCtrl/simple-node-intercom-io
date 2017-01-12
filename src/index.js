@@ -158,6 +158,10 @@ export function showNewMessage(message) {
   context.Intercom('showNewMessage', message);
 }
 
+export function hide() {
+  context.Intercom('hide');
+}
+
 export default {
-  setup, boot, setKey, update, trackEvent, shutdown, showNewMessage
+  setup, boot, setKey, update, trackEvent, shutdown, showNewMessage, hide
 };
