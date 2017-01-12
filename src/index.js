@@ -154,7 +154,10 @@ export function boot(name, email, created_at, meta) {
   context.Intercom('boot', meta);
 }
 
+export function showNewMessage(message) {
+  context.Intercom('showNewMessage', message);
+}
 
 export default {
-  setup, boot, setKey, update, trackEvent, shutdown
+  setup, boot, setKey, update, trackEvent, shutdown, showNewMessage
 };
